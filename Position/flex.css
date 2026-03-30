@@ -1,0 +1,20 @@
+.da{
+    width: 400px;
+    height: 200px;
+    border:3px solid red;
+    display: flex;
+/* display: inline; */
+/* justify-content:space-around; */
+
+}
+.divs
+{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border:2px solid;
+   /* display:; */
+
+}
+
+
