@@ -1,0 +1,14 @@
+.out{
+    border:3px solid red;
+    width:300px;
+    margin: 100px;
+    height: 200px;
+/* outline-style: groove; */
+/* outline-width: 20px; */
+/* outline-width:10px; */
+/* outline-color: aqua; */
+/* outline-style: dashed; */
+outline: 20px dotted pink;
+outline-offset: 5px;
+
+}

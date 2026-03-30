@@ -1,0 +1,57 @@
+.lin{
+    background-color: yellow;
+    font-weight: auto;
+    width:60px;
+    color:aqua;
+font-size: larger;
+}
+.lin > a:visited
+    {
+    color:red;
+    background-color: yellowgreen;
+
+
+    }
+   .lin > a:hover{
+        color:green;
+        text-decoration: line-through;
+        background-color: rgb(171, 171, 216);
+    width: 50px;
+    }
+    .lin > a:active{
+        color:aqua;
+    }
+    .lin a{
+        text-decoration: none;
+    }
+
+.di>p>a{
+    text-decoration:none;
+}
+.diva1 > a:link {
+    color:greenyellow;
+    background-color: aqua;
+
+}
+
+.diva2 > a:active {
+    color:greenyellow;
+    background-color: rgb(98, 0, 255);
+
+}
+.diva3 > a:hover{
+    color:greenyellow;
+    background-color: aqua;
+
+}
+.diva4 > a:visited {
+    color:greenyellow;
+    background-color: rgb(255, 0, 170);
+
+}
+.diva5 > a:hover{
+    color:greenyellow;
+    background-color: rgb(0, 255, 136);
+
+}
+
