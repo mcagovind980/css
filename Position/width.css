@@ -1,0 +1,20 @@
+.h
+   {
+height:200px;
+width: 300px;
+ /* min-width:0px; */
+/* min-width:120px; */
+
+
+background-color: aquamarine;
+border-radius: 20px;
+ /* border:3px solid red; */
+text-align: center;
+margin-left: 100px;
+font-size: x-large;
+padding-top: 40px;
+box-shadow: 10px 10px 10px  red;  
+
+}
+
+

@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+.ani {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+
+  /* Animation shorthand (all properties in one line) */
+  animation: demoAnim 3s   infinite  alternate forwards;
+}
+
+/* Keyframes */
+@keyframes demoAnim {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border-radius: 0%;
+  }
+
+  50% {
+    background-color: yellow;
+    left: 150px;
+    top: 50px;
+    transform: rotate(180deg) scale(1.2);
+    opacity: 0.7;
+    border-radius: 25%;
+  }
+
+  100% {
+    background-color: blue;
+    left: 300px;
+    top: 0px;
+    transform: rotate(360deg) scale(1.5);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}

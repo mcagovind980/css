@@ -1,0 +1,31 @@
+.display{
+    /* width: 100px;
+    height: 100px;
+     */
+}
+.divs
+{
+    width: 40px;
+    height: 50px;
+    border: 3px solid black;
+    display:inline-flex;
+    /* flex-direction: column-reverse; */
+
+}
+.divs1
+{
+background-color: green;
+}
+.divs2
+{
+background-color: red;
+}
+.divs3
+{
+background-color: yellow;
+}
+.divs4
+{
+background-color:pink;
+
+}
