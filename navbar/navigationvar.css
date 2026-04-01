@@ -1,0 +1,142 @@
+body
+     {
+background-color: rgb(206, 236, 236);
+     }
+ 
+     .cantainer
+   {
+/* width: 100%; */
+height: 50px;
+display: flex;
+align-items: center;
+/* border:2px solid black; */
+background-color: rgb(7, 2, 2);
+text-shadow: 3px 4px 5px  blue;  
+font-size: larger;
+box-shadow: 3px 4px 8px royalblue ;
+color: aliceblue;
+}
+
+.uae {
+   /* flex:1; */
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+/* margin-right: 300px; */
+  /* padding-right: 300px; */
+/* position: absolute;
+  left:600px;
+   */
+
+
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* display: flex; */
+  /* gap: 40px; */
+
+  }
+
+
+.L  {
+  text-decoration: none;
+  color:aliceblue;    
+    /* flex:1; */
+
+}
+.L,.uae
+{
+  flex:1;
+}
+.c{
+  text-align: right;
+  color: black;
+
+   }
+.c a
+     {  
+  
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px ;
+   display: inline-block;
+    /* flex: 1;    */
+   /* text-align: right; */
+    
+  }
+
+
+.cantainer1
+  {
+    box-shadow: 4px 5px 6px rgb(70, 50, 13);
+    text-shadow: 3px -1px 9px ;
+    width: 100%;
+    height: 40px;
+    border:3px solid black;
+    background-color: rgb(26, 24, 24);   
+    /* top:200px; */
+    margin-top: 100px;
+    color: white; 
+    font-size: 20px;
+    /* text-align:center; */
+   }
+.uas{
+text-decoration: none;
+display: flex;
+justify-content: right;
+gap:40px;
+margin-top: 10px;
+  /* text-align:center; */
+}
+.cs{
+display: flex;
+gap:40px;
+margin-top: -20px;
+}
+#A{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 70px;
+    color: black;
+    text-align: center;
+    box-shadow: 3px 4px 7px rgb(161, 140, 14)
+}
+.cantainer2
+{
+    width: 100%;
+    height: 40px;
+    border:3px solid black;
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: absolute;
+    top:350px;    
+    gap:40px;
+    background-color: black;
+    color: aliceblue;
+     box-shadow: 3px 4px 6px rgb(47, 68, 255);
+     text-shadow: 3px 4px 6px  rgb(227, 232, 227);
+   
+  }
+
+div>a
+    {
+    text-decoration: none;
+color: inherit; 
+     }
+.log   {
+
+ display: flex;
+  gap:40px;
+margin-top: 10px;
+   }
+
+  .er{
+display: flex;
+justify-content: right;
+gap:40px;  
+margin-top: -20px;
+
+  }
+
