@@ -1,0 +1,15 @@
+  #grad1
+    { 
+       
+     height:200px;
+     width:200px;
+     border:2px solid black;
+     background-image:repeating-conic-gradient(from 10deg at 40% , yellow 0 30deg,green  60deg,blue 80deg,black 90deg,orange 120deg,red 200deg);
+     border-radius: 50%;
+      
+      } 
+#ram
+{
+  
+}
+       

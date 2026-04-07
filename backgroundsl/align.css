@@ -1,0 +1,50 @@
+.conatainer
+{
+display: flex;
+flex-direction:row ;
+/* justify-content:space-evenly; */
+/* justify-content:space-around; */
+width:400px;
+height:300px;
+
+border: 3px solid ;
+align-items:start;
+/* gap:20px; */
+
+  }
+.main1
+{
+    width: 70px;
+    height: 30px;
+    border: 2px solid ;
+background-color: aqua;
+/* align-self: flex-end; */
+/* align-self: center; */
+/* gap:100px; */
+/* flex:1; */
+flex-basis: 200px;
+}
+.main2
+{
+    /* order:1; */
+    width: 70px;
+    height: 30px;
+    border: 2px solid ;
+background-color: aqua;
+/* flex:2; */
+}
+.main3
+{
+    width: 70px;
+    height: 30px;
+    border: 2px solid ;
+background-color: aqua;
+}
+.main4
+{
+    width: 70px;
+    height: 30px;
+    border: 2px solid ;
+background-color: aqua;
+/* order:-1; */
+}
