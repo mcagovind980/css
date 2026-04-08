@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(174, 174, 243);
+    text-align: center;
+    /* text-shadow:4px 3px 6px red; */
+    /* text-shadow:4px 3px 6px red,3px 4px 7px yellow; */
+    text-shadow:-1px 0px  red,-4px 0px yellow;
+    font-size: 40px;
+     font-weight: bolder;
+
+}
+p{
+    border:3px solid red;
+   width:200px;
+   /* height:200px; */
+background-color: aquamarine;
+/* transform:translate(300px,100px) ;
+ */
+/* transform: rotate(-20deg); */
+
+/* transform:scaley(40%); */
+
+/* transform:rotate(55deg); */
+/* transform:skewX(-10deg); */
+/* transform:skewY(-20deg); */
+  /* transform:skew(-10deg); */
+
+/* transform:scale(1,.8) */
+/* transform:matrix(.1,.2,.2,.1,.7,.5) */
+/* transform:rotateZ(14deg); */
+
+
+
+transition:width 4s;
+
+}
+
+p:hover{
+    width:500px;
+}
+
+
