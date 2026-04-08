@@ -1,0 +1,48 @@
+
+.left
+   {
+    background-color: aqua;
+    border:2px solid black;
+    width: 60px;   
+    height:60px;
+    box-shadow: 3px 5px 6px ;
+    position: relative; 
+   
+   }
+
+.r
+  {
+     position:absolute; 
+     display: none;
+     width:60px;
+     height:90px;
+     border: 2px solid;
+     padding:20px;
+     /* padding: 120px; */ 
+     word-spacing:20px ;
+  
+    }
+li a
+   {
+    background-color: aqua;
+    
+   }
+
+  .left:hover .r  
+   {
+   
+    display: block;
+
+    }
+ /* .r a:hover
+{
+  */
+    /* background-color: blue;     */
+
+/* } */
+
+
+.left:hover .r{
+    background-color: aquamarine;
+
+}

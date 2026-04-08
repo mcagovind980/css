@@ -1,0 +1,46 @@
+ .main
+  {
+
+   width:100%;
+   border:2px solid red;
+   background-color: aqua;
+   display: flex;
+   list-style-type:none; 
+   justify-content: space-around;
+   position: relative;  
+
+  }
+.main:hover
+   {
+      background-color: rgb(238, 233, 233);
+  }
+.link
+   {
+/* display:inline; */
+   width: 50px;
+   border: 2px solid rgb(57, 56, 56);
+   background-color: rgb(230, 223, 223);  
+   position: absolute;
+
+   list-style-type:none;
+   }
+
+.link 
+     {
+   text-decoration: none;
+   color:black;
+   display:none;
+    
+   }
+.do:hover + .link
+
+  {
+    /* position: absolute; */
+    display: block;
+  
+  } 
+
+
+ 
+
+
