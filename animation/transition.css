@@ -1,0 +1,88 @@
+.container
+    {
+   width:100px;
+   height:100px;
+   border:3px solid black; 
+   background-color: rgb(175, 224, 177);
+/* transition-duration:3s; */
+/* transition-property:width,height;   */
+/* transition-delay:s; */
+/* transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+   animation-name:demo;
+   animation-duration:4s;
+   position: relative;
+/* animation-iteration-count:infinite ; */
+animation-direction:alternate-reverse;
+}
+
+@keyframes demo{
+0%{
+    background-color: yellow;
+    left:0px; top:0px;
+
+}
+25%{
+    background-color: aquamarine;
+     left:400px;
+      top:0px;
+}
+50%
+    {
+    background-color:red;
+     left:400px;
+      top:200px;
+    }
+75%
+{
+background-color:red;
+      left:0px;
+      top:200px;
+    
+}
+100%
+    {
+     background-color:red;
+     left:0px;
+     top:0px;
+    }
+}
+
+/* 
+@keyframes demo{
+ 0%
+    {
+        background-color: red;
+        left:0px;
+        top:40px;
+
+     }
+   50%
+   {
+    background-color:yellow;
+    left:200px;
+    top:70px;
+   }
+
+75%{
+    background-color:yellow;
+    right:10px;
+    top:170px;
+    
+}
+100%
+{
+    background-color:green;
+    right:0px;top:0px;
+}
+} */
+
+
+/* .container:hover
+  {
+      width:500px;
+      background-color: red;
+      /* height:100px; */
+/*  } */
+
+
+
